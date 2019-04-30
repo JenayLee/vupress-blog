@@ -1,7 +1,7 @@
 <template>
   <div class="custom-area-inner">
 		<header class='custom-header'>
-			<h1 class='custom-header-logo'>MISS</h1>
+			<h1 class='custom-header-logo'>BLOG</h1>
 		</header>
 		<div class="custom-area-text">
 			<h1>
@@ -12,7 +12,7 @@
 			<router-link to='/views/about/' class="custom-readmore">ABOUT ME</router-link>
 		</div>
 		<div class="custom-area-image">
-			<img src='/images/girl.jpg' alt="man mask">
+			<img src='/images/slide-img.jpg' alt="man mask">
 		</div>
   </div>
 </template>
@@ -48,8 +48,8 @@
 }
 .custom-area-image {
     position: absolute;
-    right: 0;
-    top: 10%;
+    right: -15%;
+    top: 20%;
     max-height: 100%;
     z-index: -1;
 }
