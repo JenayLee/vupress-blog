@@ -18,22 +18,21 @@
         <div class="row">
           <div class="col-sm-6 clear-mrg">
               <h2 class="title-thin text-muted">personal information</h2>
-
               <dl class="dl-horizontal clear-mrg">
                   <dt class="text-upper">Full Name</dt>
-                  <dd>Ola Maria Lowe</dd>
+                  <dd>Jenay Lee</dd>
 
                   <dt class="text-upper">D.o.b.</dt>
-                  <dd>05 Sep 1986</dd>
+                  <dd>14 Apr 1993</dd>
 
                   <dt class="text-upper">address</dt>
-                  <dd>24058, Belgium, Brussels,Liutte 27, BE</dd>
+                  <dd>China, HeFei</dd>
 
                   <dt class="text-upper">e-mail</dt>
-                  <dd><a href="mailto:robertsmith@company.com">robertsmith@company.com</a></dd>
+                  <dd><a href="mailto:jenay.lee@hotmail.com">jenay.lee@hotmail.com</a></dd>
 
                   <dt class="text-upper">phone</dt>
-                  <dd>+1 256 254 84 56</dd>
+                  <dd>+86 182 5699 5083</dd>
 
                   <dt class="text-upper">freelance</dt>
                   <dd>Available</dd>
@@ -42,9 +41,8 @@
 
           <div class="col-sm-6 clear-mrg">
               <h2 class="title-thin text-muted">languages</h2>
-
               <div class="progress-bullets ace-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="10">
-                  <strong class="progress-title">English</strong>
+                  <strong class="progress-title">Chinese</strong>
                   <span class="progress-bar">
                       <span class="bullet fill"></span>
                       <span class="bullet fill"></span>
@@ -61,32 +59,32 @@
               </div>
 
               <div class="progress-bullets ace-animated" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="10">
-                  <strong class="progress-title">Spanish</strong>
+                  <strong class="progress-title">English</strong>
                   <span class="progress-bar">
                       <span class="bullet fill"></span>
                       <span class="bullet fill"></span>
                       <span class="bullet fill"></span>
                       <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
+                      <span class="bullet"></span>
+                      <span class="bullet"></span>
+                      <span class="bullet"></span>
+                      <span class="bullet"></span>
                       <span class="bullet"></span>
                       <span class="bullet"></span>
                   </span>
-                  <span class="progress-text text-muted">intermediate</span>
+                  <span class="progress-text text-muted">elementary</span>
               </div>
 
               <div class="progress-bullets ace-animated" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="10">
-                  <strong class="progress-title">Italian</strong>
+                  <strong class="progress-title">French</strong>
                   <span class="progress-bar">
                       <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
-                      <span class="bullet fill"></span>
+                      <span class="bullet"></span>
+                      <span class="bullet"></span>
+                      <span class="bullet"></span>
+                      <span class="bullet"></span>
+                      <span class="bullet"></span>
+                      <span class="bullet"></span>
                       <span class="bullet"></span>
                       <span class="bullet"></span>
                       <span class="bullet"></span>
@@ -96,6 +94,34 @@
           </div><!-- .col-sm-6 -->
         </div>
       </section>
+      <section class="section brd-btm">
+        <div class="row">
+          <div class="col-sm-6 clear-mrg">
+              <h2 class="title-thin text-muted">professional skills</h2>
+              <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <strong class="progress-title">Php &amp; MySQL</strong>
+                  <div class="progress-bar" data-text="90%" data-value="0.9" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 10;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">90%</div></div>
+              </div>
+              <div class="progress-line ace-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <strong class="progress-title">Javascript</strong>
+                  <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div></div>
+              </div>
+              <div class="progress-line ace-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <strong class="progress-title">UX Design</strong>
+                  <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div></div>
+              </div>
+            </div><!-- .col-sm-6 -->
+            <div class="col-sm-6 clear-mrg">
+                <h2 class="title-thin text-muted">personal characteristics</h2>
+                <ul class="styled-list clear-mrg">
+                    <li>Lake Marcelview</li>
+                    <li>New Tara</li>
+                    <li>Abbeyshire</li>
+                    <li>Kassulkechester</li>
+                </ul>
+            </div><!-- .col-sm-6 -->
+          </div><!-- .row -->
+        </section>
     </div>
   </div>
 </template>
@@ -112,6 +138,7 @@
 }
 .about-wrapper .content{
   background-color: rgba(255, 255, 255, .6);
+  box-shadow: -5px 5px 40px #fff;
 }
 .about-wrapper h2{
   border-bottom: 0px;
@@ -191,5 +218,100 @@ dt {
     text-transform: uppercase;
     font-size: 0.9em;
     letter-spacing: 0.01em;
+}
+dd {
+    margin: 0 0 0.563em 0;
+}
+.progress-title {
+    font-size: 0.85em;
+    line-height: 1.2em;
+    display: block;
+    margin-bottom: 0.2em;
+}
+b, strong {
+    font-weight: 700;
+}
+.progress-bullets .progress-bar {
+    white-space: nowrap;
+    line-height: 0.938em;
+}
+.progress-bullets.ace-animated .bullet:nth-child(1) {
+    -webkit-animation-delay: 0ms;
+}
+.progress-bullets.ace-animated .bullet {
+    -webkit-animation: FadeIn 250ms linear;
+    -webkit-animation-fill-mode: both;
+}
+
+.progress-bullets .bullet.fill {
+    background-color: #3eaf7c;
+}
+@media (min-width: 768px){
+  .progress-bullets .bullet {
+    margin-right: 0.31em;
+  }
+}
+.progress-bullets {
+    margin-bottom: 1.375em;
+}
+.progress-bullets .bullet {
+    width: 0.85em;
+    height: 0.85em;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #3eaf7c;
+    vertical-align: middle;
+}
+.progress-line {
+    margin-bottom: 20px;
+}
+.progress-line .progress-title {
+    padding-right: 3.8em;
+}
+.progress-line .progress-bar {
+    width: 100%;
+    height: 5px;
+}
+.title-thin {
+    font-size: 1.35em;
+    font-weight: 400;
+    margin-bottom: 1.571em;
+}
+.clear-mrg > *:last-child {
+    margin-bottom: 0 !important;
+}
+@media (min-width: 768px){
+  .styled-list, .styled-list ul, .styled-list ol {
+    padding-left: 2.7em;
+  } 
+  .styled-list {
+    line-height: 1.1em;
+  }
+  .styled-list li:before {
+    left: -2.7em;
+  } 
+}
+.styled-list, .styled-list ul, .styled-list ol {
+    list-style: none;
+}
+.styled-list {
+    font-weight: 700;
+    line-height: 2em;
+}
+ul {
+    list-style-type: disc;
+}
+ul, ol {
+    margin: 0 0 22px 0;
+    padding: 0 0 0 1.6em;
+}
+.styled-list li {
+    position: relative;
+}
+.styled-list li:before {
+    content: ">";
+    left: -1.6em;
+    top: 0;
+    position: absolute;
 }
 </style>
