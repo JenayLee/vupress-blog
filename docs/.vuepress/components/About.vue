@@ -100,24 +100,74 @@
               <h2 class="title-thin text-muted">professional skills</h2>
               <div class="progress-line ace-animated" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                   <strong class="progress-title">Php &amp; MySQL</strong>
-                  <div class="progress-bar" data-text="90%" data-value="0.9" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 10;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">90%</div></div>
+                  <div class="progress-bar" data-text="90%" data-value="0.9" style="position: relative;">
+                    <svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+                      <path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                      <path d="M 0,2 L 100,2" stroke="#3eaf7c" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 10;"></path>
+                    </svg>
+                    <div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">90%</div>
+                  </div>
               </div>
               <div class="progress-line ace-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                   <strong class="progress-title">Javascript</strong>
-                  <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div></div>
+                  <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;">
+                    <svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+                      <path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                      <path d="M 0,2 L 100,2" stroke="#3eaf7c" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path>
+                    </svg>
+                    <div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div>
+                  </div>
               </div>
               <div class="progress-line ace-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <strong class="progress-title">UX Design</strong>
-                  <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;"><svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;"><path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path><path d="M 0,2 L 100,2" stroke="#c0e3e7" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path></svg><div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div></div>
+                  <strong class="progress-title">VUE</strong>
+                  <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;">
+                    <svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+                      <path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                      <path d="M 0,2 L 100,2" stroke="#3eaf7c" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path>
+                    </svg>
+                    <div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div>
+                  </div>
+              </div>
+               <div class="progress-line ace-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <strong class="progress-title">React</strong>
+                  <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;">
+                    <svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+                      <path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                      <path d="M 0,2 L 100,2" stroke="#3eaf7c" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path>
+                    </svg>
+                    <div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div>
+                  </div>
+              </div>
+               <div class="progress-line ace-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <strong class="progress-title">Angular</strong>
+                  <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;">
+                    <svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+                      <path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                      <path d="M 0,2 L 100,2" stroke="#3eaf7c" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path>
+                    </svg>
+                    <div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div>
+                  </div>
+              </div>
+               <div class="progress-line ace-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <strong class="progress-title">C# &amp; SQLServer</strong>
+                  <div class="progress-bar" data-text="80%" data-value="0.8" style="position: relative;">
+                    <svg viewBox="0 0 100 4" preserveAspectRatio="none" style="width: 100%; height: 100%;">
+                      <path d="M 0,2 L 100,2" stroke="#eee" stroke-width="4" fill-opacity="0"></path>
+                      <path d="M 0,2 L 100,2" stroke="#3eaf7c" stroke-width="4" fill-opacity="0" style="stroke-dasharray: 100, 100; stroke-dashoffset: 20;"></path>
+                    </svg>
+                    <div class="progress-text" style="top: -25px; right: 0px; color: rgb(1, 1, 1); position: absolute; margin: 0px; padding: 0px; transform: translate(0px, 0px);">80%</div>
+                  </div>
               </div>
             </div><!-- .col-sm-6 -->
             <div class="col-sm-6 clear-mrg">
                 <h2 class="title-thin text-muted">personal characteristics</h2>
                 <ul class="styled-list clear-mrg">
-                    <li>Lake Marcelview</li>
-                    <li>New Tara</li>
-                    <li>Abbeyshire</li>
-                    <li>Kassulkechester</li>
+                    <li>Bachelor's degree</li>
+                    <li>TEM4</li>
+                    <li>NCRE2</li>
+                    <li>----- cute line -----</li>
+                    <li>Positive</li>
+                    <li>Aspirant</li>
                 </ul>
             </div><!-- .col-sm-6 -->
           </div><!-- .row -->
@@ -280,6 +330,15 @@ b, strong {
 .clear-mrg > *:last-child {
     margin-bottom: 0 !important;
 }
+.progress-line svg {
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 5px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
 @media (min-width: 768px){
   .styled-list, .styled-list ul, .styled-list ol {
     padding-left: 2.7em;
@@ -296,7 +355,7 @@ b, strong {
 }
 .styled-list {
     font-weight: 700;
-    line-height: 2em;
+    line-height: 2.6em;
 }
 ul {
     list-style-type: disc;
@@ -309,7 +368,7 @@ ul, ol {
     position: relative;
 }
 .styled-list li:before {
-    content: ">";
+    content: "☆";
     left: -1.6em;
     top: 0;
     position: absolute;
