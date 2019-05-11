@@ -7,15 +7,16 @@
           <p>
             <b>Helo, I’m Jenay Lee!</b>
             <br>
-            Logo or your Company Name, unless of course you are Microsoft or the Yellow Pages online directorye core of
-            your marketing, the central theme around your products and services.
-            Your brand is not your Logo or your Company Name, unless of course you are Microsoft or the Yellow Pages
-            online directory.
+            I come from Hefei, the capital of Anhui Province.
+            I graduated from the Biomedical Engineering department of Anhui Medical University in July, 2016. 
+            In the past two years I have been engaged in front-end development work.
+            I am very interested in front-end development and design, 
+            I feel a real sense of accomplishment when I finish a job and it turns out just as I’d planned.
           </p>
         </div>
       </section>
       <section class="selection brd-btm">
-        <div class="row">
+        <div class="row" style="padding-bottom: 15px;">
           <div class="col-sm-6 clear-mrg">
               <h2 class="title-thin text-muted">personal information</h2>
               <dl class="dl-horizontal clear-mrg">
@@ -94,7 +95,7 @@
           </div><!-- .col-sm-6 -->
         </div>
       </section>
-      <section class="section brd-btm">
+      <section class="section">
         <div class="row">
           <div class="col-sm-6 clear-mrg">
               <h2 class="title-thin text-muted">professional skills</h2>

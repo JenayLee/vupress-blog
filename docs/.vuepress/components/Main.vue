@@ -9,7 +9,7 @@
 				I AM  Jenay Lee...
 			</h1>
 			<h5>PROFESSIONAL _WEB DESIGNER &amp; DEVELOPER</h5>
-			<router-link to='/views/about/' class="custom-readmore">ABOUT ME</router-link>
+			<router-link to='/dist/about/' class="custom-readmore">ABOUT ME</router-link>
 		</div>
 		<div class="custom-area-image">
 			<img src='/images/slide-img.jpg' alt="man mask">
