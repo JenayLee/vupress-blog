@@ -178,7 +178,7 @@
 </template>
 <style>
 .about-wrapper{
-  background:url("/images/bg-img.jpg") 0 0 no-repeat;
+  background:url("../public/images/bg-img.jpg") 0 0 no-repeat;
   width: 100%;
   height: 910px;
   position: relative;

@@ -4,13 +4,20 @@ module.exports = {
   head: [ // 注入到当前页面的 HTML <head> 中的标签
     ['link', {el: 'icon',href: '/images/favicon.ico'}], // 增加一个自定义的 favicon(网页标签的图标)
   ],
-  base: '/', // 这是部署到github相关的配置
+  base: '/JenayLee/', // 这是部署到github相关的配置
   markdown: {
-    lineNumbers: true // 代码块显示行号
+    // markdown-it-anchor 的选项
+    anchor: { permalink: false },
+    // markdown-it-toc 的选项
+    toc: { includeLevel: [1, 2] },
+    config: md => {
+      // 使用更多的 markdown-it 插件!
+      md.use(require('markdown-it-xxx'))
+    }
   },
   themeConfig: {
     nav: [ // 导航栏配置
-      { text: 'Notes', link: '/dist/notes/' },
+      { text: 'Notes', link: '/dist/notes/frontEnd/checking' },
       { text: 'About', link: '/dist/about/'},
       { text: 'Github', link: 'https://github.com/JenayLee'}
     ],
@@ -18,7 +25,12 @@ module.exports = {
       {
         title: '前端',
         collapsable: false, //是否展开
-        children:['/dist/notes/frontEnd/vue','/dist/notes/frontEnd/react']
+        children:[
+            '/dist/notes/frontEnd/checking',
+            '/dist/notes/frontEnd/vue',
+            '/dist/notes/frontEnd/react',
+            '/dist/notes/frontEnd/angular'
+        ]
       },
       {
         title: '后端',

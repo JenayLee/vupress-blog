@@ -12,23 +12,23 @@
 			<router-link to='/dist/about/' class="custom-readmore">ABOUT ME</router-link>
 		</div>
 		<div class="custom-area-image">
-			<img src='/images/slide-img.jpg' alt="man mask">
+		<img src='../public/images/slide-img.jpg' alt="man mask">
 		</div>
   </div>
 </template>
 <style>
 .custom-area-inner {
-		position: relative;
-    display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    z-index: 1;
-	  padding: 3.6rem 2rem 0;
-    max-width: 1024px;
-		min-height: 700px;
-    margin: 0px auto;
-		font-family: "Dosis", sans-serif;
+	position: relative;
+	display: flex;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	z-index: 1;
+	padding: 3.6rem 2rem 0;
+	max-width: 1024px;
+	min-height: 700px;
+	margin: 0px auto;
+	font-family: "Dosis", sans-serif;
 }
 .custom-area-text {
     padding: 120px 0;
@@ -39,12 +39,12 @@
     letter-spacing: 2px;
 }
 .custom-area-text h5 {
-    margin-top: 20px;
-    font-weight: 400;
-    letter-spacing: 2px;
-		font-size: 18px;
-		line-height: 1.3;
-    color: #333333;
+	margin-top: 20px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	font-size: 18px;
+	line-height: 1.3;
+	color: #333333;
 }
 .custom-area-image {
     position: absolute;
