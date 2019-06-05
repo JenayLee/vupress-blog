@@ -12,7 +12,7 @@ module.exports = {
     toc: { includeLevel: [1, 2] },
     config: md => {
       // 使用更多的 markdown-it 插件!
-      md.use(require('markdown-it-xxx'))
+      md.use(require('markdown-it'))
     }
   },
   themeConfig: {
@@ -27,6 +27,7 @@ module.exports = {
         collapsable: false, //是否展开
         children:[
             '/dist/notes/frontEnd/checking',
+            '/dist/notes/frontEnd/axios',
             '/dist/notes/frontEnd/vue',
             '/dist/notes/frontEnd/react',
             '/dist/notes/frontEnd/angular'
