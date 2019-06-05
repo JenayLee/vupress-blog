@@ -18,7 +18,11 @@ module.exports = {
       {
         title: '前端',
         collapsable: false, //是否展开
-        children:['/dist/notes/frontEnd/vue','/dist/notes/frontEnd/react']
+        children:[
+          '/dist/notes/frontEnd/webpack',
+          '/dist/notes/frontEnd/vue',
+          '/dist/notes/frontEnd/react'
+        ]
       },
       {
         title: '后端',
