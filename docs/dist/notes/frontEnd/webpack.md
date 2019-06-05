@@ -34,13 +34,13 @@ webpack就能按图索骥把所有需要模块打包成一个bundler文件了。
 绘制依赖关系图的起始文件被称为entry。默认的entry为`./src/index.js`，或者我们可以在配置文件中配置。
 entry可以为一个也可以为多个。
 * 单个entry:
-```
+``` javascript
 module.exports = {
     entry: './src/index.js'
 }
 ```
 或者
-```
+``` javascript
 module.exports = {
     entry: {
         main: './src/index.js'
@@ -50,7 +50,7 @@ module.exports = {
 * 多个entry，多个chunk
 
 如果有多个entry，并且每个entry生成对应的chunk，我们需要传入object：
-```
+``` javascript
 module.exports = {
     entry: {
         app: './src/app.js',
@@ -65,7 +65,7 @@ module.exports = {
 
 有了入口，对应的就有出口。顾名思义，出口就是webpack打包完成的输出，output定义了输出的路径
 和文件名称。webpack默认的输出路径为`./dist/main.js`。同样，我们可以在配置文件中配置output：
-```
+``` javascript
 module.exports = {
     entry: './src/index.js',
     output: {
@@ -78,7 +78,7 @@ module.exports = {
 
 当有多个entry的时候，一个entry应该对应一个output，此时输出的文件名需要使用替换符声明以确保文件名
 的唯一性，例如使用入口模块的名称：
-```
+``` javascript
 module.exports = {
     entry: {
         app: './src/app.js',
@@ -97,8 +97,9 @@ module.exports = {
 webpack自身只支持加载js和json模块，而webpack的理念是让所有的文件都能被引用和加载并生成
 依赖关系图，所以loader出场了。Loader能让webpack能够处理其他类型的文件（比如图片、字体文件、xml）。
 我们可以在配置文件中这样定义一个loader：
-* webpack.config.js
-```
+``` javascript
+// webpack.config.js
+
 module.exports = {
     module: {
         rules: [
@@ -121,7 +122,7 @@ Plugin和loader是两个比较混淆和模糊的概念。Loader是用来转换�
 事件，深度集成进webpack的编译器，可以说Plugin的执行层面是整个构建过程。Plugin系统是构成webpack
 的主干，webpack自身也基于Plugin系统搭建，webpack有丰富的内置插件和外部插件，并且允许用户自定义
 插件。与loader不同，使用Plugin我们必须先引用该插件：
-```
+``` javascript
 const webpack = require('webpack'); // 用于引用webpack内置插件
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // 外部插件
 
@@ -141,11 +142,11 @@ module.exports = {
 
 2. 安装依赖
 * 安装react
-```
+``` javascript
 npm i react react-dom
 ```
 * 安装webpack相关
-```
+``` javascript
 npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader
 ```
 安装`webpack-cli`后可以在命令行执行webpack命令；
@@ -158,7 +159,7 @@ npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader
 
 由于react中使用了`class`，`import`这样的es6的语法，为了提高网站的浏览器兼容性，
 我们需要用babel转换一下。
-```
+``` javascript
 npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader
 ```
 其中`@babel/core`是babel的核心模块，包含了babel的核心功能；`@babel/preset-env`
@@ -169,7 +170,7 @@ npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader
 * 配置webpack
 
 在项目根目录下新建`webpack.config.js`，内容如下：
-```
+``` javascript
 // webpack.config.js
 
 const path = require('path');
@@ -202,7 +203,7 @@ module.exports = {
 }
 ```
 其中`HtmlWrbpackPlugin`使用自定义的模板来生成html文件，模板的内容如下：
-```
+``` javascript
 // ./src/index.html
 
 <!DOCTYPE html>
@@ -221,7 +222,7 @@ module.exports = {
 * 配置babel
 
 在项目根目录下新建`.babelrc`文件，配置我们安装的两个babel preset:
-```
+``` javascript
 // .babelrc
 
 {
@@ -232,7 +233,7 @@ module.exports = {
 }
 ```
 * 生成react应用根节点
-```
+``` javascript
 // ./src/index
 
 import React from 'react';
@@ -241,7 +242,7 @@ import App from './components/App';
 
 ReactDOM.render(<App/>, document.getElementById('app'));
 ```
-```
+``` javascript
 // ./src/component/App.js
 
 import React, { Component } from 'react';
@@ -257,8 +258,8 @@ export default class App extends Component {
     }
 }
 ```
-```
-// ./src/components/App.css
+``` css
+/* ./src/components/App.css */
 
 body {
     font-size: 60px;
@@ -270,7 +271,7 @@ body {
 * 配置 `package.json`
 
 最后，在`package.json`文件里加上两个scripts，用来运行开发服务器和打包：
-```
+``` javascript
 // package.json
 
 'scripts': {
