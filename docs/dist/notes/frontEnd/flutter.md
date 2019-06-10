@@ -1,0 +1,3 @@
+# Flutter
+
+Flutter是Google开发的移动UI框架，用以构建iOS和Android上通用的原生用户界面。Flutter和现有的React Native和weex的区别是Flutter不需要js引擎，不需要桥接，运行的就是原生代码，所以速度很快，多端适配也很容易。Flutter不需要js引擎是因为它是用dart语言编写的，dart语法和JavaScript很相像。

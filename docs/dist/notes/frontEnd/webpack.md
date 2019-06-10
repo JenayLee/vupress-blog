@@ -1,5 +1,4 @@
-# webpack
----
+# Webpack
 
 ## 什么是webpack
 
@@ -14,8 +13,8 @@
 
 ### 核心概念
 
-#### 1. Module(模块) 
- 
+#### 1. Module(模块)
+
 对于webpack，模块不仅仅是JavaScript模块，它包括了任何类型的源文件，不管是图片、字体、json文件等。
 webpack支持一下的方式引用模块:
 - ES2015 `import`方法
@@ -86,7 +85,7 @@ module.exports = {
     },
     output: {
         filename: '[name].js',
-        path: __dirname + '/dist' 
+        path: __dirname + '/dist'
     }
 }
 ```

@@ -20,8 +20,10 @@ module.exports = {
         collapsable: false, //是否展开
         children:[
           '/dist/notes/frontEnd/webpack',
+          '/dist/notes/frontEnd/flutter',
           '/dist/notes/frontEnd/vue',
-          '/dist/notes/frontEnd/react'
+          '/dist/notes/frontEnd/react',
+          '/dist/notes/frontEnd/optimize'
         ]
       },
       {
