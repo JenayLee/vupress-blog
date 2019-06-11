@@ -23,7 +23,8 @@ module.exports = {
           '/dist/notes/frontEnd/flutter',
           '/dist/notes/frontEnd/vue',
           '/dist/notes/frontEnd/react',
-          '/dist/notes/frontEnd/optimize'
+          '/dist/notes/frontEnd/optimize',
+          '/dist/notes/frontEnd/async'
         ]
       },
       {
