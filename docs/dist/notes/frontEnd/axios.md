@@ -24,8 +24,7 @@ Axios是一个基于promise的HTTP库，可以用在浏览器和node.js中。
       })
       .catch(function (error) {
         console.log(error);
-      });
-    
+      })
     // 上面的请求也可以这样做
     axios.get('/user', {
         params: {
@@ -35,7 +34,7 @@ Axios是一个基于promise的HTTP库，可以用在浏览器和node.js中。
         console.log(response);
     }).catch(function (error) {
         console.log(error);
-    });    
+    })
 ```
 
 - 执行`POST`请求
@@ -59,20 +58,21 @@ Axios是一个基于promise的HTTP库，可以用在浏览器和node.js中。
   function getUserAccount() {
     return axios.get('/user/12345');
   }
-  
+
   function getUserPermissions() {
     return axios.get('/user/12345/permissions');
   }
-  
+
   axios.all([getUserAccount(), getUserPermissions()])
     .then(axios.spread(function (acct, perms) {
       // 两个请求现在都执行完成
   }));
 ```
 
-##  请求配置
+## 请求配置
 
 这些是创建请求时可以用的配置选项。只有`url`是必需的。如果没有指定`method`，请求将默认使用`get`方法。
+
 ``` javascript
 
    // `url` 是用于请求的服务器 URL
@@ -211,26 +211,31 @@ Axios是一个基于promise的HTTP库，可以用在浏览器和node.js中。
 
 ## 配置默认值
 
-* 全局的axios默认值
+- 全局的axios默认值
+
 ``` javascript
  axios.defaults.baseURL = 'https://api.example.com';
  axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
  axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 ```
-* 自定义实例默认值
+
+- 自定义实例默认值
+
 ``` javascript
  // Set config defaults when creating the instance
  const instance = axios.create({
    baseURL: 'https://api.example.com'
- });
- 
+ })
+
  // Alter defaults after instance has been created
  instance.defaults.headers.common['Authorization'] = AUTH_TOKEN;
 ```
-* 配置的优先顺序
+
+- 配置的优先顺序
 
 配置会一个优先顺序进行合并。这个顺序是：在`lib/default.js`找到的库的默认值，然后是实例的
 `defaults`属性，最后是请求的`config`参数。后者将优先于前者。
+
 ``` javascript
 // 使用由库提供的配置的默认值来创建实例
 // 此时超时配置的默认值是 `0`
@@ -247,7 +252,9 @@ instance.get('/longRequest', {
 ```
 
 ## 拦截器
+
 在请求或响应被`then`或`catch`处理前拦截它们
+
 ``` javascript
 // 添加请求拦截器
 axios.interceptors.request.use(function (config) {
@@ -267,13 +274,18 @@ axios.interceptors.response.use(function (response) {
     return Promise.reject(error);
   });
 ```
+
 之后移除拦截器：
+
 ``` javascript
 const myInterceptor = axios.interceptors.request.use(function () {/*...*/});
 axios.interceptors.request.eject(myInterceptor);
 ```
+
 自定义axios实例添加拦截器：
+
 ``` javascript
 const instance = axios.create();
 instance.interceptors.request.use(function () {/*...*/});
 ```
+
