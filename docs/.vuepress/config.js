@@ -35,6 +35,7 @@ module.exports = {
            '/dist/notes/frontEnd/flutter',
            '/dist/notes/frontEnd/optimize',
            '/dist/notes/frontEnd/async',
+           '/dist/notes/frontEnd/tcp',
         ]
       },
       {
