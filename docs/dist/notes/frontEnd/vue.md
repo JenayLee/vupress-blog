@@ -1,5 +1,12 @@
 # Vue
 
+## 响应式原理
+
+当一个Vue实例创建时，vue会遍历data选项的属性，用`Object.defineProperty`将他们转为getter/setter并且在内部追踪相关依赖，在属性被访问和修改时通知变化。
+
+每个组件实例都有相应的watcher程序实例，它会在组件渲染的过程中把属性记录为依赖，之后当依赖项的setter被调用时，会通知watcher重新计算，从而致使它关联的组件得以更新。
+![watcher](/JenayLee/images/watcher.jpg)
+
 ## 状态共享
 
 随着组件的细化，就会遇到多组件状态共享的情况，`Vuex`当然可以解决这类问题，不过就像`Vuex`官方文档所说，如果应用不够大，为避免代码繁琐冗余，最好不要使用它。而vue.js2.6
