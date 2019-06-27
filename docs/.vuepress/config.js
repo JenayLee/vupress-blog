@@ -27,6 +27,7 @@ module.exports = {
         collapsable: false, //是否展开
         children:[
             '/dist/notes/frontEnd/checking',
+            '/dist/notes/frontEnd/promise',
             '/dist/notes/frontEnd/webpack',
             '/dist/notes/frontEnd/axios',
             '/dist/notes/frontEnd/vue',
@@ -37,6 +38,7 @@ module.exports = {
             '/dist/notes/frontEnd/optimize',
             '/dist/notes/frontEnd/async',
             '/dist/notes/frontEnd/tcp'
+
         ]
       },
       {
