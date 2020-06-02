@@ -300,9 +300,6 @@ svg:not(:root) {
     overflow: hidden;
 }
 @media (min-width: 768px){
-  .styled-list, .styled-list ul, .styled-list ol {
-    padding-left: 2.7em;
-  }
   .styled-list {
     line-height: 1.1em;
   }
@@ -321,7 +318,6 @@ ul {
 }
 ul, ol {
     margin: 0 0 22px 0;
-    padding: 0 0 0 1.6em;
 }
 .styled-list li {
     position: relative;
@@ -330,5 +326,6 @@ ul, ol {
     content: "☆";
     top: 0;
     position: absolute;
+    left: -25px;
 }
 </style>
